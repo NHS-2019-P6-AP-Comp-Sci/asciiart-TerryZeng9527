@@ -17,11 +17,83 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	
+	public static void wide() {
+		System.out.println("                 |          |");
+	
+	}
+	public static void body() {
+		System.out.println("                  |        |");
+		
+	}
+	public static void BodyWithLines() {
+		System.out.println("                  |________|");
+	}
+	public static void BodyWithLadder() {
+		System.out.println("                  |     ]  |");
+		
+	}
+	public static void Head() {
+		System.out.println("                      /\\");
+		System.out.println("                     /  \\");
+		System.out.println("                    /____\\");
+		System.out.println("                   /      \\");
+		System.out.println("                  /        \\");
+		wide();
+		wide();
+		wide();
+		System.out.println("                 |_        _|	");
+		System.out.println("                   |      |");
+		System.out.println("                   /      \\");
+	}
+	public static void Body() {
+		System.out.println("                 /|        |\\");
+		System.out.println("                / |        | \\");
+		System.out.println("                | |        | |");
+		System.out.println("                \\_|        |_/");
+		BodyWithLines();
+		BodyWithLadder();
+		BodyWithLadder();
+		BodyWithLadder();
+		BodyWithLadder();
+		BodyWithLadder();
+		System.out.println("                  |_____]__|");
+		BodyWithLines();
+		body();
+		body();
+		body();
+		body();
+		BodyWithLines();
+		System.out.println("                  |[[[[[[[[|");
+		System.out.println("                  |--------|");
+		BodyWithLines();
+		
+		
+	}
+	public static void Bot() {
+		System.out.println("         /\\       |   /\\   |       /\\");
+		System.out.println("        /  \\      /  /  \\  \\      /  \\");
+		System.out.println("       /____\\    /  /____\\  \\    /____\\\n      |______|__/  |______|  \\__|______|");
+		System.out.println("      |      |     |      |     |      |\n      |      |-----|      |-----|      |");
+		System.out.println("      |      |     |      |     |      |");
+		System.out.println("      |      |]]]]]|      |[[[[[|      |");
+		System.out.println("      |      |     |      |     |      |");
+		System.out.println("      |      |=====|      |=====|      |");
+		System.out.println("      |      |     |      |     |      |");
+		System.out.println("      \\______/     \\______/     \\______/");
+		System.out.println("             |                  |");
+		System.out.println("             \\__________________/");
+		System.out.println("                 /__________\\");
+		System.out.println("                 /\\/\\/\\/\\/\\/\\");
+
+
+	}
+	public static void main(String[] args) {
+		
+		Head();
+		Body();
+		Bot();
+		
+	
 	}
 }
